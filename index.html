@@ -25,7 +25,7 @@
 
 						</div>
 					</div>
-					<div class="col">
+					<div class="col d-none d-sm-block d-xs-block">
 						<form method="POST" action="index.html">
 							<input type="search" required class="search">
 							<input type="submit" name="submit" value="Rechercher" class="submit">
@@ -33,17 +33,24 @@
 					</div>
 					<div class="col">
 						<div class="user">
-							<a href="#">Luke Chesser</a>
+							<div class="dropdown">
+								<a href="#">Luke Chesser</a>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Edit my profile</a>
+									<a class="dropdown-item" href="#">Logout</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
 			</div>
 		</div>
 	</header>
+
 	<div class="container">
 
 		<section class="row">
-			<aside class="col-2">
+			<aside class="col-2 d-none d-sm-block d-xs-block">
 				<h3>Browse</h3>
 				<nav class="browse">
 					<ul class="main">
@@ -114,7 +121,7 @@
 				<!--afficher successivement les albums par 6 sur grand écran, 4 pour les tablettes et 2 en dessous-->
 				<section id="albums" class="row">
 
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_01.png" />
 							<figcaption>Native (Deluxe)</figcaption>
@@ -122,7 +129,7 @@
 						<div class="artist">OneRepublic</div>
 						<div class="count">17 songs</div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_02.png" />
 							<figcaption>Wax Wings</figcaption>
@@ -130,7 +137,7 @@
 						<div class="artist">Joshua Radin</div>
 						<div class="count">11 songs</div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_03.png" />
 							<figcaption>Modern Vampires of th...</figcaption>
@@ -138,7 +145,7 @@
 						<div class="artist">Vampire Weekend</div>
 						<div class="count">12 songs</div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_04.png" />
 							<figcaption>Night Visions</figcaption>
@@ -146,7 +153,7 @@
 						<div class="artist">Imagine Dragons</div>
 						<div class="count">11 songs</div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_05.png" />
 							<figcaption>Trouble Will Find Me</figcaption>
@@ -154,7 +161,7 @@
 						<div class="artist">The National</div>
 						<div class="count">13 songs <span class="explicit">EXPLICIT</span></div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_06.png" />
 							<figcaption>Native (Deluxe)</figcaption>
@@ -162,7 +169,7 @@
 						<div class="artist">OneRepublic</div>
 						<div class="count">17 songs</div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_07.png" />
 							<figcaption>Wax Wings</figcaption>
@@ -170,7 +177,7 @@
 						<div class="artist">Joshua Radin</div>
 						<div class="count">11 songs</div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_08.png" />
 							<figcaption>Modern Vampires of th...</figcaption>
@@ -178,7 +185,7 @@
 						<div class="artist">Vampire Weekend</div>
 						<div class="count">12 songs</div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_09.png" />
 							<figcaption>Night Visions</figcaption>
@@ -186,7 +193,7 @@
 						<div class="artist">Imagine Dragons</div>
 						<div class="count">11 songs <span class="explicit">EXPLICIT</span></div>
 					</article>
-					<article class="col-2">
+					<article class="col-lg-2 col-md-3 col-sm-4 col-6">
 						<figure>
 							<img src="img/album/album_10.png" />
 							<figcaption>Trouble Will Find Me</figcaption>
